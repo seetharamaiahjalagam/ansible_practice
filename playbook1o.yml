@@ -1,0 +1,7 @@
+---
+- name: user creation using host scope variable
+  hosts: 172.31.44.182
+  tasks:
+    - name: creating user
+      user:
+
